@@ -1,0 +1,10 @@
+# robots.txt — Ashti Sugar Limited
+User-agent: *
+Allow: /
+
+# Keep crawlers out of non-public folders if you add them later
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+Sitemap: https://www.ashtisugar.com/sitemap.xml
